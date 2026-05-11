@@ -49,7 +49,7 @@
             <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Location</p>
-              <address>Riverside, CA 92507</address>
+              <address>California</address>
             </div>
           </li>
         </ul>
@@ -436,7 +436,43 @@ I enjoy thoughtful backend development and building features that are practical 
         </ul>
         <a href="https://github.com/Chandana2003/Pacman" target="_blank">GitHub Repo</a>
       </li>
-    
+
+      <!-- PROJECT 11 -->
+      <li class="project-item active" data-category="Research">
+        <img src="./assets/images/project-1.jpg" alt="LLM Joern Research" class="project-img">
+        <h4 class="h4">LLM-Guided Decompiled Code Recovery (Graduate Research)</h4>
+        <ul>
+          <li>Built a pipeline using Joern and Groq Llama 3.3 70B to restore structural properties lost in Ghidra-decompiled C code.</li>
+          <li>Designed a self-improving agentic workflow where a 2nd LLM reviews each session and updates agents.md with better rules via RAG context.</li>
+          <li>Applied chain-of-thought prompting across 3 specialist modules, improving recovery from 68.1% to 81.4% (best cases: 97.6%).</li>
+        </ul>
+        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
+      </li>
+
+      <!-- PROJECT 12 -->
+      <li class="project-item active" data-category="AI">
+        <img src="./assets/images/project-10.png" alt="AI Semantic Property Discovery" class="project-img">
+        <h4 class="h4">AI-Assisted Semantic Property Discovery</h4>
+        <ul>
+          <li>Built an agentic LLM pipeline using Claude and Groq APIs with MCP integrations to extract semantic properties from codebases.</li>
+          <li>Generated test cases from extracted properties using Hypothesis, catching 60% of introduced bugs across 250 programs.</li>
+          <li>Evaluated LLM output quality, identifying hallucination and over-generalization as key failure patterns.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
+      </li>
+
+      <!-- PROJECT 13 -->
+      <li class="project-item active" data-category="Web Development">
+        <img src="./assets/images/project-2.png" alt="Academic Web Search Engine" class="project-img">
+        <h4 class="h4">Academic Web Search Engine</h4>
+        <ul>
+          <li>Built a BFS web crawler in Python indexing 500MB across 50K+ .edu pages with SHA-256 deduplication.</li>
+          <li>Designed a hybrid BM25 + BERT search engine using FAISS and Elasticsearch for scalable semantic retrieval.</li>
+          <li>Deployed on GCP with Docker; Flask REST API with Redis caching cut response time from 800ms to 100ms.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/.edu-Web-Crawler" target="_blank">GitHub Repo</a>
+      </li>
+
     </ul>
   </section>
 </article>

@@ -20,7 +20,7 @@
         </figure>
         <div class="info-content">
           <h1 class="name">Chandana<br>Anand Rangappa</h1>
-          <p class="title">Software Engineer & Full-Stack Developer</p>
+          <p class="title">Software Engineer</p>
         </div>
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -127,7 +127,7 @@
         <h4 class="h4 service-item-title">AI & LLM Pipelines</h4>
         <p class="service-item-text">
           Building RAG pipelines, agentic workflows, and LLM-powered tools with LangChain, Claude, and Groq APIs. <br>
-          From prototype to production — including verification, logging, and accuracy measurement.
+          From prototype to production, including verification, logging, and accuracy measurement.
         </p>
       </div>
     </li>
@@ -169,7 +169,7 @@
         <h4 class="h4 service-item-title">Systems & Research</h4>
         <p class="service-item-text">
           Graduate research in LLM-guided binary decompilation recovery using Joern and Ghidra. <br>
-          Distributed systems, OS internals, compiler construction — I go deep when the problem calls for it.
+          Distributed systems, OS internals, compiler construction. I go deep when the problem calls for it.
         </p>
       </div>
     </li>
@@ -194,7 +194,7 @@
         UNIVERSITY OF CALIFORNIA, RIVERSIDE, CA
       </h3>
       <p class="highlight-degree">
-        Master of Science, Computer Engineering (Sept 2024 – Dec 2025)
+        Master of Science, Computer Engineering (Sep 2024 – Mar 2026)
       </p>
       <button class="course-toggle">Show Coursework</button>
 <div class="course-boxes hidden">
@@ -219,7 +219,7 @@
         DAYANANDA SAGAR COLLEGE OF ENGINEERING, Bengaluru
       </h3>
       <p class="highlight-degree">
-        Bachelor of Engineering, Computer Science & Engineering (Sept 2020 – May 2024)
+        Bachelor of Engineering, Computer Science & Engineering (Sep 2020 – Jun 2024)
       </p>
 <button class="course-toggle">Show Coursework</button>
 <div class="course-boxes hidden">
@@ -357,47 +357,50 @@
     <ul class="project-list">
 
       <!-- PROJECT 1 -->
-      <li class="project-item active" data-category="Machine Learning">
-        <img src="./assets/images/project-1.jpg" alt="AST ML System Screenshot" class="project-img">
-        <h4 class="h4">Antibiotic Susceptibility Test – Report</h4>
+      <li class="project-item active" data-category="iOS">
+        <img src="./assets/images/icon-app.svg" alt="GrumpBear iOS App" class="project-img">
+        <h4 class="h4">GrumpBear – iOS Productivity App</h4>
         <ul>
-          <li>Built full-stack ML app with YOLOv5, TensorFlow, Flask for bacterial resistance detection (95% accuracy).</li>
-          <li>Designed RESTful APIs, MySQL; reduced manual error by 30%.</li>
-          <li>Used Docker, Git, and unit tests for CI reliability.</li>
+          <li>Built an iOS Pomodoro app in SwiftUI with a bear companion sending UNNotificationCenter push notifications.</li>
+          <li>Built reusable SwiftUI components using @StateObject and CoreData for adaptive, persistent task storage.</li>
+          <li>Designed WCAG-accessible layouts and tested with XCTest and Appium, reaching 85% code coverage.</li>
         </ul>
-        <a href="https://drive.google.com/file/d/1QpCNQ_4DuZmNMD1bv2BtTwnQEQVaK9Qh/view?usp=sharing" target="_blank">View Report</a>
+        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
       </li>
 
       <!-- PROJECT 2 -->
       <li class="project-item active" data-category="Web Development">
-        <img src="./assets/images/project-2.png" alt=".edu Crawler Screenshot" class="project-img">
-        <h4 class="h4">.edu Web Crawler</h4>
-        <ul>
-          <li>Engineered BFS-based web crawler in Python for indexing 500MB from 50K .edu domains.</li>
-          <li>Implemented SHA-256 deduplication and batch-wise modular ingestion for search pipelines.</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/.edu-Web-Crawler" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 3 -->
-      <li class="project-item active" data-category="Web Development">
         <img src="./assets/images/project-3.jpg" alt="U-ASK Search Engine" class="project-img">
         <h4 class="h4">U-ASK: Spatial-Textual Search Engine</h4>
         <ul>
-          <li>Built PostgreSQL + OpenSearch based spatial keyword query system.</li>
+          <li>Built a search engine combining a quadtree spatial index with an inverted text index over 5M+ geotagged records at sub-50ms latency (3,500 QPS).</li>
+          <li>Sped up search 30x over brute-force by pre-filtering candidates with PostGIS before ranking in Elasticsearch.</li>
           <li>Implemented Power Ranking and Boolean Range filtering for top-k retrieval.</li>
         </ul>
         <a href="https://github.com/Chandana2003/U-ASK-Postgresql" target="_blank">GitHub Repo</a>
       </li>
 
-      <!-- PROJECT 4 -->
-      <li class="project-item active" data-category="Big Data">
-        <img src="./assets/images/project-4.png" alt="Retail Analytics" class="project-img">
-        <h4 class="h4">Optimizing Retail Strategies with Big Data</h4>
+      <!-- PROJECT 3 -->
+      <li class="project-item active" data-category="AI">
+        <img src="./assets/images/project-10.png" alt="AI Semantic Property Discovery" class="project-img">
+        <h4 class="h4">AI-Assisted Semantic Property Discovery</h4>
         <ul>
-          <li>Built PySpark + Hadoop ETL pipelines for 100K+ transactions.</li>
-          <li>Applied SQL-based governance for targeted personalization insights.</li>
+          <li>Built an agentic LLM pipeline using Claude and Groq APIs with MCP integrations to extract semantic properties from codebases.</li>
+          <li>Generated test cases from extracted properties using Hypothesis, catching 60% of introduced bugs across 250 programs.</li>
+          <li>Evaluated LLM output quality, identifying hallucination and over-generalization as key failure patterns.</li>
         </ul>
+        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
+      </li>
+
+      <!-- PROJECT 4 -->
+      <li class="project-item active" data-category="Systems">
+        <img src="./assets/images/project-9.png" alt="XV6 OS Lab" class="project-img">
+        <h4 class="h4">Operating Systems Lab (XV6)</h4>
+        <ul>
+          <li>Implemented custom system calls, Lottery and Stride scheduling in XV6.</li>
+          <li>Built user-level threading library using clone() & join().</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/XV6-OS-Lab" target="_blank">GitHub Repo</a>
       </li>
 
       <!-- PROJECT 5 -->
@@ -412,61 +415,6 @@
       </li>
 
       <!-- PROJECT 6 -->
-      <li class="project-item active" data-category="IoT">
-        <img src="./assets/images/project-6.png" alt="Secure Sense IoT" class="project-img">
-        <h4 class="h4">Secure Sense – IoT Food Monitoring</h4>
-        <ul>
-          <li>Built ESP32-based system using DHT11, MQ-135 sensors for real-time food quality monitoring.</li>
-          <li>Used ESP32-CAM for visual data and Blynk for alerts.</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/Secure-Sense-IOT-based-Food-Monitoring-System" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 7 -->
-      <li class="project-item active" data-category="Web Development">
-        <img src="./assets/images/project-7.png" alt="Organ Donation System" class="project-img">
-        <h4 class="h4">Organ Donation Management System</h4>
-        <ul>
-          <li>Built PHP + MySQL platform for donor/recipient coordination.</li>
-          <li>Implemented authentication, CRUD, and real-time updates.</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/Organ-Donation-Management-System" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 8 -->
-      <li class="project-item active" data-category="Web Development">
-        <img src="./assets/images/project-8.jpg" alt="Pharmacy App" class="project-img">
-        <h4 class="h4">Pharmacy Management System</h4>
-        <ul>
-          <li>Java-based inventory and sales system with real-time stock updates.</li>
-          <li>Integrated MySQL and barcode-based tracking.</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/Pharmacy-management-system" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 9 -->
-      <li class="project-item active" data-category="Systems">
-        <img src="./assets/images/project-9.png" alt="XV6 OS Lab" class="project-img">
-        <h4 class="h4">Operating Systems Lab (XV6)</h4>
-        <ul>
-          <li>Implemented custom system calls, Lottery and Stride scheduling in XV6.</li>
-          <li>Built user-level threading library using clone() & join().</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/XV6-OS-Lab" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 10 -->
-      <li class="project-item active" data-category="AI">
-        <img src="./assets/images/project-10.png" alt="Pacman AI Project" class="project-img">
-        <h4 class="h4">Pac-Man AI Search</h4>
-        <ul>
-          <li>Implemented DFS, BFS, UCS, A*, and Greedy for intelligent pathfinding.</li>
-          <li>Compared algorithms for optimal navigation logic.</li>
-        </ul>
-        <a href="https://github.com/Chandana2003/Pacman" target="_blank">GitHub Repo</a>
-      </li>
-
-      <!-- PROJECT 11 -->
       <li class="project-item active" data-category="Research">
         <img src="./assets/images/project-1.jpg" alt="LLM Joern Research" class="project-img">
         <h4 class="h4">LLM-Guided Decompiled Code Recovery (Graduate Research)</h4>
@@ -478,19 +426,19 @@
         <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
       </li>
 
-      <!-- PROJECT 12 -->
-      <li class="project-item active" data-category="AI">
-        <img src="./assets/images/project-10.png" alt="AI Semantic Property Discovery" class="project-img">
-        <h4 class="h4">AI-Assisted Semantic Property Discovery</h4>
+      <!-- PROJECT 7 -->
+      <li class="project-item active" data-category="Machine Learning">
+        <img src="./assets/images/project-1.jpg" alt="AST ML System Screenshot" class="project-img">
+        <h4 class="h4">Antibiotic Susceptibility Test – Report</h4>
         <ul>
-          <li>Built an agentic LLM pipeline using Claude and Groq APIs with MCP integrations to extract semantic properties from codebases.</li>
-          <li>Generated test cases from extracted properties using Hypothesis, catching 60% of introduced bugs across 250 programs.</li>
-          <li>Evaluated LLM output quality, identifying hallucination and over-generalization as key failure patterns.</li>
+          <li>Built full-stack ML app with YOLOv5, TensorFlow, Flask for bacterial resistance detection (95% accuracy).</li>
+          <li>Designed RESTful APIs, MySQL; reduced manual error by 30%.</li>
+          <li>Used Docker, Git, and unit tests for CI reliability.</li>
         </ul>
-        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1QpCNQ_4DuZmNMD1bv2BtTwnQEQVaK9Qh/view?usp=sharing" target="_blank">View Report</a>
       </li>
 
-      <!-- PROJECT 13 -->
+      <!-- PROJECT 8 -->
       <li class="project-item active" data-category="Web Development">
         <img src="./assets/images/project-2.png" alt="Academic Web Search Engine" class="project-img">
         <h4 class="h4">Academic Web Search Engine</h4>
@@ -502,16 +450,69 @@
         <a href="https://github.com/Chandana2003/.edu-Web-Crawler" target="_blank">GitHub Repo</a>
       </li>
 
-      <!-- PROJECT 14 -->
-      <li class="project-item active" data-category="iOS">
-        <img src="./assets/images/project-9.png" alt="GrumpBear iOS App" class="project-img">
-        <h4 class="h4">GrumpBear – iOS Productivity App</h4>
+      <!-- PROJECT 9 -->
+      <li class="project-item active" data-category="Web Development">
+        <img src="./assets/images/project-2.png" alt=".edu Crawler Screenshot" class="project-img">
+        <h4 class="h4">.edu Web Crawler</h4>
         <ul>
-          <li>Built an iOS Pomodoro app in SwiftUI with a bear companion sending UNNotificationCenter push notifications.</li>
-          <li>Built reusable SwiftUI components using @StateObject and CoreData for adaptive, persistent task storage.</li>
-          <li>Designed WCAG-accessible layouts and tested with XCTest and Appium, reaching 85% code coverage.</li>
+          <li>Engineered BFS-based web crawler in Python for indexing 500MB from 50K .edu domains.</li>
+          <li>Implemented SHA-256 deduplication and batch-wise modular ingestion for search pipelines.</li>
         </ul>
-        <a href="https://github.com/Chandana2003" target="_blank">GitHub</a>
+        <a href="https://github.com/Chandana2003/.edu-Web-Crawler" target="_blank">GitHub Repo</a>
+      </li>
+
+      <!-- PROJECT 10 -->
+      <li class="project-item active" data-category="Big Data">
+        <img src="./assets/images/project-4.png" alt="Retail Analytics" class="project-img">
+        <h4 class="h4">Optimizing Retail Strategies with Big Data</h4>
+        <ul>
+          <li>Built PySpark + Hadoop ETL pipelines for 100K+ transactions.</li>
+          <li>Applied SQL-based governance for targeted personalization insights.</li>
+        </ul>
+      </li>
+
+      <!-- PROJECT 11 -->
+      <li class="project-item active" data-category="IoT">
+        <img src="./assets/images/project-6.png" alt="Secure Sense IoT" class="project-img">
+        <h4 class="h4">Secure Sense – IoT Food Monitoring</h4>
+        <ul>
+          <li>Built ESP32-based system using DHT11, MQ-135 sensors for real-time food quality monitoring.</li>
+          <li>Used ESP32-CAM for visual data and Blynk for alerts.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/Secure-Sense-IOT-based-Food-Monitoring-System" target="_blank">GitHub Repo</a>
+      </li>
+
+      <!-- PROJECT 12 -->
+      <li class="project-item active" data-category="Web Development">
+        <img src="./assets/images/project-7.png" alt="Organ Donation System" class="project-img">
+        <h4 class="h4">Organ Donation Management System</h4>
+        <ul>
+          <li>Built PHP + MySQL platform for donor/recipient coordination.</li>
+          <li>Implemented authentication, CRUD, and real-time updates.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/Organ-Donation-Management-System" target="_blank">GitHub Repo</a>
+      </li>
+
+      <!-- PROJECT 13 -->
+      <li class="project-item active" data-category="Web Development">
+        <img src="./assets/images/project-8.jpg" alt="Pharmacy App" class="project-img">
+        <h4 class="h4">Pharmacy Management System</h4>
+        <ul>
+          <li>Java-based inventory and sales system with real-time stock updates.</li>
+          <li>Integrated MySQL and barcode-based tracking.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/Pharmacy-management-system" target="_blank">GitHub Repo</a>
+      </li>
+
+      <!-- PROJECT 14 -->
+      <li class="project-item active" data-category="AI">
+        <img src="./assets/images/project-10.png" alt="Pacman AI Project" class="project-img">
+        <h4 class="h4">Pac-Man AI Search</h4>
+        <ul>
+          <li>Implemented DFS, BFS, UCS, A*, and Greedy for intelligent pathfinding.</li>
+          <li>Compared algorithms for optimal navigation logic.</li>
+        </ul>
+        <a href="https://github.com/Chandana2003/Pacman" target="_blank">GitHub Repo</a>
       </li>
 
     </ul>
